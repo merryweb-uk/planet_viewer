@@ -1,21 +1,9 @@
 <html>
-  <head>
-    <title>Babylon Viewer Demo</title>
-    <meta charset="UTF-8" />
-    <script
-      type="module"
-      src="https://cdn.jsdelivr.net/npm/@babylonjs/viewer@8.31.0/dist/babylon-viewer.esm.min.js"
-    ></script>
+  <body>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@babylonjs/viewer/dist/babylon-viewer.esm.min.js"></script>
     <style>
       html, body { width: 100%; height: 100%; padding: 0; margin: 0; overflow: hidden; }
     </style>
-  </head>
-  <body>
-    <babylon-viewer
-      source="mars.glb"
-    >
-    </babylon-viewer>
+    <babylon-viewer source="./mars.glb" environment="auto"></babylon-viewer>
   </body>
 </html>
-
-
